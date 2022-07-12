@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir este site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador. </p>
+
+    <picture>
+        <source media="(max-width: 750)" srcset="imagens/pequena.jpeg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/media.jpeg" type="image/jpeg">
+        <img src="imagens/grande.jpeg" alt="foto flexivel">
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audios em HTML5.</p>
+    <audio preload="metadata" controls loop>
+        <source src="midias/As You Fade Away - NEFFEX.mp3" type="audio/mpeg">
+        <source src="midias/As You Fade Away - NEFFEX.ogg" type="audio/ogg">
+        <source src="midias/As You Fade Away - NEFFEX.wav" type="audio/wav">
+        <p>infelizmente, seu navegador não consegue reproduzir audio. <a href="midias/As You Fade Away - NEFFEX.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+
+    </audio>
+</body>
+</html>
