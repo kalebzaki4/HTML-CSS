@@ -12,6 +12,7 @@
         
         table {
             width: 500px;
+            border-collapse: collapse;
         }
 
         td, th {
@@ -19,8 +20,9 @@
             padding: 10px;
         }
 
-        th {
-            
+        thead, tfoot {
+            background-color: gray;
+            color: white
         }
     </style>
 </head>
@@ -48,9 +50,20 @@
                 <td>São Paulo</td>
                 <td>45 919 049</td>
             </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
         </tbody>
         <tfoot>
-
+            <tr>
+                <th>Total De Abitantes</th>
+                <td>0000</td>
+            </tr>
         </tfoot>
     </table>
 </body>
