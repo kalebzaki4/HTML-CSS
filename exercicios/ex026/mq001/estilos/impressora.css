@@ -10,3 +10,37 @@ html {
     font-size: 1.5em;
     line-height: 1.5em;
 }
+
+menu {
+    display: none;
+}
+
+article::after {
+    content: 'esse artigo foi impresso atraves do site www.kalebzaki4.com';
+}
+
+header {
+    background-color: lightgray;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+menu ul {
+    background-color: darkgrey;
+    color: white;
+    list-style: none;
+    background-color: gray;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
