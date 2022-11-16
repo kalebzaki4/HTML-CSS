@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 * {
     margin: 0px;
@@ -8,4 +8,16 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Esse artigo foi impresso atraves do site www.kalebzaki4.com';
 }
