@@ -17,7 +17,7 @@ Neste repositório, você encontrará exemplos, tutoriais e exercícios prático
 
 1. Clone este repositório em sua máquina local:
    ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/kalebzaki4/nome-do-repositorio.git
    ```
 
 2. Explore os diferentes diretórios para acessar os recursos disponíveis.
@@ -30,16 +30,8 @@ Neste repositório, você encontrará exemplos, tutoriais e exercícios prático
 
 Contribuições para este repositório são bem-vindas! Se você tem exemplos adicionais, tutoriais ou exercícios que gostaria de compartilhar, sinta-se à vontade para fazer um fork deste repositório e enviar um pull request com suas alterações.
 
-## Aviso Legal ⚠️
+## Criador 👤
 
-Este repositório destina-se exclusivamente a fins educacionais e de aprendizado. Todo o conteúdo aqui disponibilizado é gratuito e não deve ser utilizado para fins comerciais.
+Este repositório foi criado por Kalebzaki4.
 
-## Contato 📬
-
-Se você tiver alguma dúvida, sugestão ou feedback, entre em contato comigo através do meu perfil do GitHub ou do meu e-mail.
-
-Aproveite sua jornada de aprendizado e divirta-se explorando o HTML5 e CSS3!
-
-**Autor: Seu Nome**
-**E-mail: seu-email@example.com**
-**GitHub: [seu-usuario](https://github.com/seu-usuario)**
+**GitHub: [kalebzaki4](https://github.com/kalebzaki4)**
